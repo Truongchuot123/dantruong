@@ -1,3 +1,20 @@
+@media (max-width: 1024px) {
+  .ochonGPSL {
+    grid-template-columns: repeat(3, 1fr); /* Tăng độ linh hoạt cho kích thước màn hình lớn hơn điện thoại */
+  }
+}
+
+@media (max-width: 768px) {
+  .ochonGPSL {
+    grid-template-columns: repeat(2, 1fr); /* Hai cột cho các thiết bị tablet */
+  }
+}
+
+@media (max-width: 480px) {
+  .ochonGPSL {
+    grid-template-columns: 1fr; /* Một cột cho các thiết bị di động */
+  }
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
